@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    
+        <form>
+            <h1 id="heading">Temperature Convertor</h1>
+            <input type="number" id="number-field" value="0"> <br>
+        
+            <input type="radio" id="farenhite-to-celsius" name="unit">
+            <label for="farenhite-to-celsius" >Farenhite → Celcius</label><br>
+    
+            <input type="radio" id="celsius-to-farenhite" name="unit">
+            <label for="celsius-to-farenhite" >Celcius → Farenhite</label><br>
+    
+            <button id="submitbtn" onclick="convertion()">Submit</button>
+            <p id="ans"></p>
+    
+        </form>
+    
+    
+    <script src="temp.js"></script>
+</body>
+</html>

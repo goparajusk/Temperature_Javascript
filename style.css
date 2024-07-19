@@ -1,0 +1,43 @@
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+color: hsl(180, 52%, 17%);
+padding-top: 20px;
+}
+
+form{
+    text-align: center;
+    background-color: hsl(160, 84%, 88%);
+    max-width: 500px;
+    height: 250px;
+    margin: 250px auto;
+    
+    box-shadow: 10px 10px 15px rgb(149, 148, 148);
+}
+#number-field{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.1em;
+}
+label{
+    font-size: 1.2em;
+}
+#submitbtn{
+    margin-top: 10px;
+    font-size: 1.2em;
+    background-color: hsla(313, 68%, 69%, 0.864);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#submitbtn:hover{
+    background-color: hsla(313, 84%, 54%, 0.864);
+}
+#ans{
+    font-size: larger;
+    margin: 10px 0px;
+
+}
